@@ -54,6 +54,19 @@ h2	{
 	padding: 1.5% 2% 0 2%;
 }
 
+.diagram    {
+    display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: auto;
+	background-color: rgba(255,255,255,1);
+	margin: 1%;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+	border-radius: 4px;
+    
+
+}
+
 .card img	{
 	width: 100%;
 	border-radius: 4px 4px 0 0;
