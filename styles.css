@@ -67,8 +67,38 @@ h2	{
 
 }
 
+.myborder	{
+	border-top: 1px solid white;
+	width: 50%;
+	margin: 1em auto;
+}
+
+.mybutton	{
+	font-size: 1.25em;
+	font-weight: 300;
+	text-align: center;
+	display: block;
+	background-color: rgba(18, 15, 136, 0.75);
+	width: 140px;
+	margin: 1.25em auto;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.75);
+	padding: 0.25em;
+	border-radius: 4px;
+	transition: all 0.3s ease;
+}
+
+.mybutton:hover	{
+	background-color: rgb(255, 0, 0);
+	box-shadow:	8px 8px 16px rgba(0,0,0,0.2);
+}
+
 .card img	{
-	width: 100%;
+	width: 340px;
+	height: 440px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 4px 4px 0 0;
 }
 
@@ -81,6 +111,26 @@ h2	{
 	margin: 1%;
 	box-shadow: 0 6px 12px rgba(0,0,0,0.2);
 	border-radius: 4px;
+	text-align: center;
+}
+.dcard	{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	height: auto;
+	background-color: rgba(255,255,255,1);
+	margin: 1%;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+	border-radius: 4px;
+}
+
+.dcard img	{
+	width: 1400px;
+	height: 1400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px 4px 0 0;
 }
 
 .two_columns	{
@@ -91,7 +141,23 @@ h2	{
 	flex-direction: row; /* so that the columns appear side-by-side */
 	flex-wrap: wrap; /* columns drop side-to-bottom when needed */
 }
+
+.three_columns	{
+	width: 70%;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	flex-direction: row; /* so that the columns appear side-by-side */
+	flex-wrap: wrap; /* columns drop side-to-bottom when needed */
+}
 .column	{
+	display: flex;
+	flex-direction: column; /* contents appear top-to-bottom */
+	flex: 1; /* makes column widths the same = 1 */
+	margin: 1em 1em 0 1em;
+}
+
+.column2	{
 	display: flex;
 	flex-direction: column; /* contents appear top-to-bottom */
 	flex: 1; /* makes column widths the same = 1 */
